@@ -8,6 +8,8 @@ Foram utilizados apenas os arquivos training_texts e training_variants, porque o
 Foi feita a estruturação dos dados em um arquivo unificado no formato .json para carga posterior.
 Manipulação pode ser vista no notebook 00-importacao_e_estruturacao.ipynb
 
+## Atenção: todos os arquivos intermediários necessários para execução deste projeto são gerados pelos próprios noteboos dentro da pasta data_files. Estes arquivos intermediários não foram carregados no repositório por restrições do github quanto ao tamanho dos arquivos.
+
 ## Análise exploratória de dados:
 Feita no notebook 01-Analise_exploratoria_de_dados.ipynb, a partir do .json salvo na etapa anterior.
 
@@ -35,11 +37,11 @@ Inicialmente foram utilizados datasets com dimensionalidade reduzida, mas o dese
 Foram testados os seguintes modelos: LinearSVC, Naive-Bayes, KNNClassifier e RandomForestClassifier.
 **O modelo RandomForestClassifier apresentou o melhor desempenho, com acurácia de 65,7%.**
 O treinamento dos modelos pode ser visualizado nos seguintes notebooks:
-06-Treinamento_modelos_ML-1.ipynb
-06-Treinamento_modelos_ML-2.ipynb
-06-Treinamento_modelos_ML-3.ipynb
-07-Treinamento_modelos_ML-4.ipynb
-08-Treinamento_modelos_ML-5.ipynb
+- 06-Treinamento_modelos_ML-1.ipynb
+- 06-Treinamento_modelos_ML-2.ipynb
+- 06-Treinamento_modelos_ML-3.ipynb
+- 07-Treinamento_modelos_ML-4.ipynb
+- 08-Treinamento_modelos_ML-5.ipynb
 
 Abaixo pode-se ver a matriz de confusão do modelo treinado:
 ![image](img/matrix.png)
