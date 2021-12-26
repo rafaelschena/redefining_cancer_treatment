@@ -1,1 +1,9 @@
-data_files/
+*.json
+*.dat
+*.csv
+stage2_sample_submission.csv
+test_text
+test_variants
+training_text
+training_variants
+
